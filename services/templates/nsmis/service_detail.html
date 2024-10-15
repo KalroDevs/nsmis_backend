@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>{{ service.title }}</h2>
+  <p><strong>Provider:</strong> {{ service.provider.username }}</p>
+  <p>{{ service.description }}</p>
+  <a href="{% url 'service_listings' %}" class="btn btn-secondary">Back to Listings</a>
+{% endblock %}
