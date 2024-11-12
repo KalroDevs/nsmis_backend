@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o$%xz%&0-7_6heel_a#@nm24nbv2%ky((wmqza2*(-ckx)nlc2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ujuzilink.go.ke', '80.240.200.178', '127.0.0.1', '10.101.100.44']
 
 
 # Application definition
